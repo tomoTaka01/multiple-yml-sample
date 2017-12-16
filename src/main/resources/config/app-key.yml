@@ -1,0 +1,4 @@
+app-key:
+  key: val-default
+  key1: val1-default
+  key2: val2-default

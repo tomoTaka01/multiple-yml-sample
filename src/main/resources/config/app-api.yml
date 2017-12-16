@@ -1,0 +1,3 @@
+app-api:
+  timeout: 3
+  retry-count: 1

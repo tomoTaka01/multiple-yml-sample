@@ -1,0 +1,2 @@
+app-api:
+  retry-count: 3
