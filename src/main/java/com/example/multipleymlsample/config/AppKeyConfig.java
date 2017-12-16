@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@EnableConfigurationProperties
 @PropertySource({"classpath:/config/app-key.yml","classpath:/config/app-key-${spring.profiles.active}.yml"})
 @ConfigurationProperties
 public class AppKeyConfig {

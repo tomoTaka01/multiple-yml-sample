@@ -19,7 +19,7 @@ public class ConfigController {
     @RequestMapping("/")
     @ResponseBody
     public String getConfig(){
-        String response = String.format("response *** app-key-config:key=[%s] key1=[%s] key2=[%s] *** app-api-config:timeout=[%d] retryCount=[%d]"
+        String response = String.format("*** app-key-config:key=[%s] key1=[%s] key2=[%s] *** app-api-config:timeout=[%d] retryCount=[%d]"
                 ,appKeyConfig.getKey(), appKeyConfig.getKey1(), appKeyConfig.getKey2(), appApiConfig.getTimeout(), appApiConfig.getRetryCount());
         return response;
 
