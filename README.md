@@ -1,4 +1,5 @@
 # Spring Boot Sample
+  * As of Spring Boot version 2.0.0.M7(2017-12-17)
   * multiple config files for each environment
 
   * config files
